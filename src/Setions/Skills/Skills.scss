@@ -1,0 +1,117 @@
+$text-color: #837c7c;
+
+.skills-section {
+  text-align: center;
+}
+.skills-section p {
+  font-size: 18px;
+  color: $text-color;
+  margin: 0 auto 35px;
+  line-height: 1.6;
+  max-width: 550px;
+  text-align: center;
+}
+.skills-section h2 {
+  margin-bottom: 10px;
+}
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  gap: 25px;
+}
+.skills-list .skill-title {
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  margin-top: 9px;
+}
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  object-fit: contain;
+}
+.skill-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.html .skill-icon {
+  color: #e34f26;
+}
+.css .skill-icon {
+  color: #1572b6;
+}
+.scss .skill-icon {
+  color: #c76395;
+}
+.javascript .skill-icon {
+  color: #f7df1e;
+}
+.typescript .skill-icon {
+  color: #3178c6;
+}
+.angular .skill-icon {
+  color: #dd1b16;
+}
+.react .skill-icon {
+  color: #61dbfb;
+}
+.vite .skill-icon {
+  color: #646cff;
+}
+.bootstrap .skill-icon {
+  color: #563d7c;
+}
+.tailwind .skill-icon {
+  color: #38b2ac;
+}
+.csharp .skill-icon {
+  color: #9b4f96;
+}
+.dotnet .skill-icon {
+  color: #512bd4;
+}
+.mysql .skill-icon {
+  color: #4479a1;
+}
+.swagger .skill-icon {
+  color: #85b3c4;
+}
+.postman .skill-icon {
+  color: #ff6c37;
+}
+.docker .skill-icon {
+  color: #2496ed;
+}
+.github .skill-icon {
+  color: #181717;
+}
+.dotnet .skill-icon {
+  color: #512bd4;
+}
+.mysql .skill-icon {
+  color: #4479a1;
+}
+.sqlserver .skill-icon {
+  color: #4479a1;
+}
+.swagger .skill-icon {
+  color: #85b3c4;
+}
+.postman .skill-icon {
+  color: #ff6c37;
+}
+.docker .skill-icon {
+  color: #2496ed;
+}
+.github .skill-icon {
+  color: #181717;
+}

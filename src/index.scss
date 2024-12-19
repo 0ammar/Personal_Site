@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+$section: 50px;
+$primary-color: #4169e1;
+$hover-primary: #3652b8;
+$text-color: #837c7c;
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+}
+
+h2,
+h3,
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-head {
+  font-size: 33px;
+  margin: 15px 0;
+  text-transform: uppercase;
+  word-spacing: -9.5px;
+  transition: color 0.3s ease;
+}
+// Container styles with media queries
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  // Small screen: 768px and above
+  @media (min-width: 768px) {
+    width: 750px;
+  }
+
+  // Medium screen: 992px and above
+  @media (min-width: 992px) {
+    width: 970px;
+  }
+
+  // Large screen: 1200px and above
+  @media (min-width: 1200px) {
+    width: 1170px;
+  }
+}

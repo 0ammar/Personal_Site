@@ -1,0 +1,27 @@
+$section: 50px;
+$text-color: #837c7c; 
+
+.text-section {
+  margin: $section 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    width: 90%;
+  }
+
+  p {
+    font-size: 18px;
+    color: $text-color;
+    line-height: 1.6;
+    margin-top: 0;
+  }
+}
